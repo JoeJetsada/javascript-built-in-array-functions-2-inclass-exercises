@@ -10,6 +10,9 @@
 */
 
 // Start coding here
+function findItemLocation(product,productName){
+    return product.indexOf(productName)
+}
 
 const products = ["milk", "bread", "eggs", "butter", "cheese", "orange juice"];
 
